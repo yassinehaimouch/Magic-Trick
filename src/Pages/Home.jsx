@@ -73,7 +73,7 @@ const Home = () => {
   };
 
   return (
-    <div className="reltive flex flex-col items-center bg-slate-900 w-full h-full pb-[200px]">
+    <div className="flex flex-col items-center h-[700px] max-sm:h-[900px]">
       <div
         className={` grid grid-cols-3 grid-rows-2 gap-5 w-[500px] h-[450px] mx-auto mt-[100px] max-sm:grid-cols-2 max-sm:grid-rows-3 max-sm:w-[300px] max-sm:mt-[20px] max-sm:h-[630px] relative`}
         ref={refCard1}
